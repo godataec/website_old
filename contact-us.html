@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GoData | Contáctanos</title>
+
+  <style type="text/css">
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;
+        /* The height is 400 pixels */
+        width: 100%;
+        /* The width is the width of the web page */
+      }
+   </style>
+    <script>
+      // Initialize and add the map
+      function initMap() {
+        // The location of Uluru
+        const uluru = { lat: -0.175129, lng: -78.491160 };
+        // The map, centered at Uluru
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 4,
+          center: uluru,
+        });
+        // The marker, positioned at Uluru
+        const marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+        });
+      }
+    </script>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link href="css/animate.min.css" rel="stylesheet">
+  <link href="css/prettyPhoto.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/png" href="images/favicon_azul.png"> 
+  <!--link rel="icon" type="image/png" href="images/favicon.png"--> 
+  <link rel="canonical" href="http://www.godata.com.ec/contact-us.html"/>
+
+</head>
+
+<body class="homepage">
+  <header id="header">
+    <nav class="navbar navbar-fixed-top" role="banner">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+          <a class="navbar-brand" href="index.html"><img src="images/logoBlue.png" alt="GoData"></a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-right">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="services.html" class="dropdown-toggle" data-toggle="dropdown">Soluciones<b class="caret"></b></a>
+				<ul class="dropdown-menu">
+					<li><a href="industria.html">Industria</a></li>
+					<li><a href="use.html">Use Cases</a></li>
+				</ul>
+			</li>
+			<li><a href="products.html" class="dropdown-toggle" data-toggle="dropdown">Productos<b class="caret"></b></a>
+				<ul class="dropdown-menu">
+					<li><a href="datawarehouseModerno.html">Datawarehouse Moderno</a></li>
+					<li><a href="analitica.html">Analítica Avanzada</a></li>
+					<li><a href="bigdata.html">Big Data</a></li>
+					<li><a href="calidad.html">Calidad de Datos</a></li>
+					<li><a href="gobierno.html">Gobierno de Datos</a></li>
+				</ul>
+			</li>
+            <li class="active"><a href="contact-us.html">Contáctanos</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--/.container-->
+    </nav>
+    <!--/nav-->
+
+  </header>
+  <!--/header-->
+
+
+ <!-- [START maps_add_map_heading] -->
+    <h3>My Google Maps Demo</h3>
+    <!-- [END maps_add_map_heading] -->
+    <!-- [START maps_add_map_div] -->
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <!-- [END maps_add_map_div] -->
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC15HPfonMZBwobScVOkCCeRBsg6wYk9-o&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+
+
+  <section id="contact-page">
+    <div class="container">
+      <div class="center">
+        <h2>Contáctanos</h2>
+        <p class="lead">A continuación los datos de contacto de GoData</p>
+		<br />
+		<div class="row">
+		<div class="col-sm-4" style="padding-bottom:10px;">
+		<i class="fas fa-map-marker-alt fa-3x"> </i>
+		<br />
+		<p><strong> Dirección</strong></p>
+		<p>Av. Naciones Unidas y 10 de Agosto</p> 
+		<p>Edificio Metropolitan, piso 3. Oficina 311</p>
+		<p>Quito, Ecuador</p>
+		</div>
+		<a href="tel:+59322232355">
+		<div class="col-sm-4" style="padding-bottom:10px;">
+		<i class="fas fa-phone fa-3x"> </i>
+		<br />
+		<p><strong> Teléfono</strong></p>
+		<p>(+5932) 361 7310; (5939)98769868</p>
+		</div></a>
+		<a href="mailTo:juan.montiel@godata.com.ec">
+		<div class="col-sm-4" style="padding-bottom:0px;">
+		<i class="fas fa-envelope fa-3x"> </i>
+		<br />
+		<p><strong> E-Mail</strong></p>
+		<p>info@godata.com.ec</p>
+		</div></a>
+		
+		</div>
+		
+      </div>
+    </div>
+    <!--/.container-->
+  </section>
+  <!--/#contact-page-->
+
+  <div class="top-bar">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="social">
+            <ul class="social-share">
+			  <li><a href="https://www.facebook.com/goDataEc"><i class="fab fa-facebook-f" style="font-size:20px;"></i></a></li>
+              <li><a href="https://www.linkedin.com/goDataEc"><i class="fab fa-linkedin-in" style="font-size:20px;"></i></a></li>
+              <li><a href="https://api.whatsapp.com/send?phone=593998769868&text="><i class="fab fa-whatsapp" style="font-size:20px;"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/.container-->
+  </div>
+  <!--/.top-bar-->
+
+  <footer id="footer" class="midnight-blue">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          &copy; Copyright <strong>GoData</strong>
+          <div class="credits">
+            Designed by <a href="http://creationups.net" target="_blank">CreationUp</a>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <ul class="pull-right">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="services.html">Soluciones</a></li>
+			<li><a href="products.html">Productos</a></li>
+            <li><a href="contact-us.html">Contáctanos</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--/#footer-->
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.prettyPhoto.js"></script>
+  <script src="js/jquery.isotope.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYdYvSBLt0zCm-k5U1ooLy1IKTs_MVYkA"></script>
+  <script src="js/main.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+</body>
+
+</html>
