@@ -229,16 +229,17 @@ ul.social-share li a:hover {
 .navbar-brand img{
     max-width:75px;
   }
-}
+
 
 .navbar-header a.navbar-brand {
   color:#F7931D;
 }
 
+/*cambio css*/
 .navbar {
   border-radius: 0;
   margin-bottom: 0;
-  background: #0A163A;
+  background: #19275F;
   padding: 15px 0;
   padding-bottom: 5px;
 }
@@ -283,7 +284,7 @@ ul.social-share li a:hover {
 .navbar-fixed-top .navbar-nav > .open > a:hover,
 .navbar-fixed-top .navbar-nav > .open > a:focus {
   background-color: #F7931D;
-  color: #fffff;
+  color: #ffffff;
 }
 
 .navbar-fixed-top .navbar-nav .dropdown-menu {
@@ -494,11 +495,11 @@ ul.social-share li a:hover {
 #recent-works .col-xs-12.col-sm-4.col-md-3{
   padding: 0;
 }
-
+/*
 #recent-works{
-    padding-bottom: ;
+    padding-bottom: 
 }
-
+*/
 .recent-work-wrap {
   position: relative;
 }
