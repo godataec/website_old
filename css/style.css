@@ -227,6 +227,7 @@ ul.social-share li a:hover {
 }
 
 .navbar-brand img{
+    top:0;
     max-width:75px;
   }
 
