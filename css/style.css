@@ -207,7 +207,7 @@ ul.social-share li {
 ul.social-share li a {
   display: inline-block;
   color: #fff;
-  background: #0A163A;
+  background: #19275F;
   width: 50px;
   height: 50px;
   line-height: 50px;
@@ -288,7 +288,7 @@ ul.social-share li a:hover {
 }
 
 .navbar-fixed-top .navbar-nav .dropdown-menu {
-  background-color: rgba(0,0,0,.85);
+  background-color: #19275F;
   -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
   -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
